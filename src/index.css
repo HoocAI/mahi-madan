@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ivory: #f2eee6;
+  --ink: #141312;
+  --bronze: #a08052;
+  --sand: #dcd3c3;
+  --grey: #77736b;
+  --grey-light: #a39e94;
+  --line-light: #d9d3c7;
+  --line-dark: #34322e;
+
+  --brand-velvet-veils: #4b3038;
+  --brand-ayurvedic-magic: #3e4a3c;
+  --brand-mahi-records: #0d0d0c;
+  --brand-bebo-studio: #c2b299;
+  --brand-king-international: #2b2a28;
+  --brand-vaanipath: #2e3a45;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Instrument Sans', sans-serif;
+  background-color: var(--ivory);
+  color: var(--ink);
+  overflow-x: hidden;
+}
+
+/* Cormorant Garamond font styles */
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-custom {
+  font-family: 'Instrument Sans', system-ui, sans-serif;
+}
+
