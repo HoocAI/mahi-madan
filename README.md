@@ -2,7 +2,7 @@
 
 An interactive portfolio landing page built from the [Figma Design](https://www.figma.com/design/TB9rWcWaadWMSTnj9jmhju/Landing-Pages?node-id=1-2).
 
-## Tech Stack
+## Tech Stack'
 - **React 19**
 - **TypeScript**
 - **Vite**
