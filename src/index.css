@@ -22,6 +22,35 @@
 
 html {
   scroll-behavior: smooth;
+  /* Eliminate the default chunky white browser scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #d9d3c7 transparent;
+}
+
+/* Elegant minimalist scrollbar that matches the ivory design system */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d3c7;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a08052;
+}
+
+/* Hide scrollbar buttons (arrows) */
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 body {
@@ -42,3 +71,11 @@ body {
   font-family: 'Instrument Sans', system-ui, sans-serif;
 }
 
+/* Utility to completely hide scrollbar when desired */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
